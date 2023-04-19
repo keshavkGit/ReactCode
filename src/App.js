@@ -121,7 +121,7 @@ function App() {
 
   const showItem = ((val) => {
 
-    setName(val?.title)
+     setName(val?.title+' is added')
     setTimeout(() => {
       setName('')
     }, 3000);
